@@ -1,0 +1,13 @@
+.container {
+    max-width: 500px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.charts-container {
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Space elements evenly along the row */
+    padding: 10px;
+    gap: 10px;
+}
