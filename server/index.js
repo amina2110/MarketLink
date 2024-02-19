@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(cors())
 
 //Database Connection
-mongoose.connect('mongodb+srv://qwerty:00000000@cluster0.wweg9.mongodb.net/e-commerce')
+mongoose.connect('mongodb+srv://qwerty:{name}@cluster0.wweg9.mongodb.net/')
 
 //API Creation
 app.get('/', (req, res) => {
