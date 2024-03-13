@@ -1,0 +1,58 @@
+/* Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 0; /* Adjust the top position to be below the navbar */
+    left: -450px;
+    width: 300px; /* Increase the width if necessary */
+    height: calc(100% - 50px); /* Set the height to fill the remaining space */
+    background-color: #fff; /* Change the color to beige */
+    color: #265073;
+    transition: left 0.3s;
+    z-index: 1; /* Ensure the sidebar is above other content */
+    overflow-y: auto; /* Add scroll if content overflows */
+    opacity: 98%;
+}
+
+.sidebar.open {
+    left: 0;
+}
+
+.sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #2D9596;
+    font-size: 30px;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    color: #0E2954;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.sidebar-content {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.sidebar-content ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.sidebar-content ul li {
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: #F8F6F4;
+    border-radius: 10px;
+}
+
+.sidebar-content ul li:hover {
+    color: #0B60B0;
+}
