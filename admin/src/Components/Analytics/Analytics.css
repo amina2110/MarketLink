@@ -1,5 +1,6 @@
 .container {
-    max-width: 500px;
+    max-width: 700px;
+    height: 800px;
     margin: 10px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -9,5 +10,8 @@
     display: flex; /* Use flexbox */
     justify-content: space-between; /* Space elements evenly along the row */
     padding: 10px;
+    margin-right: 10px;
     gap: 10px;
 }
+
+
